@@ -14,4 +14,4 @@ kernel
 kernelmemfs
 mkfs
 .gdbinit
-_build/
+build/
