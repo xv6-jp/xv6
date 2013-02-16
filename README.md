@@ -1,4 +1,5 @@
 xv6
+[![Build Status](https://travis-ci.org/xv6-jp/xv6.png?branch=master)](https://travis-ci.org/xv6-jp/xv6)
 ===
 - [asm.h](markdown/asm.h.md)
 - [bio.c](markdown/bio.c.md)
