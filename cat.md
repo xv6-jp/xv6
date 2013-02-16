@@ -1,6 +1,6 @@
 /*
-```c:cat.c 
 ## ヘッダ部分
+```c:cat.c 
 */
 #include "types.h"
 #include "stat.h"
@@ -9,7 +9,6 @@
 char buf[512];
 /*
 ```
-```c:cat.c
 ## cat機能本体
 -引数
 -- fd:int 読み込み先のファイルディスクリプタ
