@@ -1,13 +1,13 @@
-/*:md
+
 ## ヘッダ部分
 ```c:cat.c 
-md:*/
+
 #include "types.h"
 #include "stat.h"
 #include "user.h"
 
 char buf[512];
-/*:md
+
 ```
 ## cat機能本体
 - 引数
@@ -18,7 +18,7 @@ fdからbufサイズ分のデータを読み込み
 fd 1に対して上記のデータを書き込む
 
 ```c:cat.c
-md:*/
+
 
 void
 cat(int fd)
@@ -32,11 +32,11 @@ cat(int fd)
     exit();
   }
 }
-/*:md
+
 ```
 ### メイン関数
 ```c:cat.c
-md:*/
+
 
 int
 main(int argc, char *argv[])
@@ -58,6 +58,6 @@ main(int argc, char *argv[])
   }
   exit();
 }
-/*:md
+
 ```
-md:*/
+
