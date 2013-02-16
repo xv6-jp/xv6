@@ -1,0 +1,21 @@
+language: c
+
+branches:
+  only:
+    - master
+    - develop
+
+script: make && make markdown
+notifications:
+  email:
+    on_success: never
+    on_failure: never
+  irc:
+    channels:
+     - "irc.freenode.net#xv6-jp"
+    on_success: always
+    on_failure: always
+    use_notice: true
+    template:
+      - "%{repository} (%{commit}) : %{message} %{foo} "
+      - "Build details: %{build_url}"
