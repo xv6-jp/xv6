@@ -1,9 +1,25 @@
-```c:cat.c
+/*
+```c:cat.c 
+## ヘッダ部分
+*/
 #include "types.h"
 #include "stat.h"
 #include "user.h"
 
 char buf[512];
+/*
+```
+```c:cat.c
+## cat機能本体
+-引数
+-- fd:int 読み込み先のファイルディスクリプタ
+
+readシステムコールを用いて
+fdからbufサイズ分のデータを読み込み
+fd 1に対して上記のデータを書き込む
+
+```c:cat.c
+*/
 
 void
 cat(int fd)
@@ -17,6 +33,11 @@ cat(int fd)
     exit();
   }
 }
+/*
+```
+### メイン関数
+```c:cat.c
+*/
 
 int
 main(int argc, char *argv[])
@@ -38,4 +59,6 @@ main(int argc, char *argv[])
   }
   exit();
 }
+/*
 ```
+*/
