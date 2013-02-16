@@ -45,11 +45,27 @@ int
 main(int argc, char *argv[])
 {
   int fd, i;
+/*:md
+```
+    引数が与えられなかった場合
+    fd 0に対して上記のcat関数を実行する
+    exitシステムコールを発行
+```c:cat.c
+md:*/
 
   if(argc <= 1){
     cat(0);
     exit();
   }
+/*:md
+```
+    引数が与えられた場合
+    すべての引数に対して openシステムコールを発行し、fdを取得
+    その各fdに対して 上記cat関数を実行
+    その後fdをcloseする
+    すべてのファイル分作業が完了したらexitシステムコールを発行
+```c:cat.c
+md:*/
 
   for(i = 1; i < argc; i++){
     if((fd = open(argv[i], 0)) < 0){
