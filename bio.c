@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Buffer cache.
 //
 // The buffer cache is a linked list of buf structures holding

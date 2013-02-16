@@ -1,3 +1,6 @@
+
+```c
+
 // Boot loader.
 // 
 // Part of the boot sector, along with bootasm.S, which calls bootmain().

@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 //
 // File-system system calls.
 // Mostly argument checking, since we don't trust

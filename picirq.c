@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Intel 8259A programmable interrupt controllers.
 
 #include "types.h"

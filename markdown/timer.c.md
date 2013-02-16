@@ -1,3 +1,6 @@
+
+```c
+
 // Intel 8253/8254/82C54 Programmable Interval Timer (PIT).
 // Only used on uniprocessors;
 // SMP machines use the local APIC timer.

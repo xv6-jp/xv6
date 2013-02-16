@@ -1,3 +1,6 @@
+
+```c
+
 // init: The initial user-level program
 
 #include "types.h"

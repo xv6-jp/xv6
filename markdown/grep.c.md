@@ -1,3 +1,6 @@
+
+```c
+
 // Simple grep.  Only supports ^ . * $ operators.
 
 #include "types.h"

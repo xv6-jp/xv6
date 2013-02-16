@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // File system implementation.  Five layers:
 //   + Blocks: allocator for raw disk blocks.
 //   + Log: crash recovery for multi-step updates.

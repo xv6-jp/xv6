@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Fake IDE disk; stores blocks in memory.
 // Useful for running kernel without scratch disk.
 

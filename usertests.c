@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "param.h"
 #include "types.h"
 #include "stat.h"
