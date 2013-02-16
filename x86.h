@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Routines to let C code use special x86 instructions.
 
 static inline uchar
@@ -181,3 +184,6 @@ struct trapframe {
   ushort ss;
   ushort padding6;
 };
+/*:md
+```
+md:*/

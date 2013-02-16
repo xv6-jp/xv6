@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Simple grep.  Only supports ^ . * $ operators.
 
 #include "types.h"
@@ -104,3 +107,6 @@ int matchstar(int c, char *re, char *text)
   return 0;
 }
 
+/*:md
+```
+md:*/

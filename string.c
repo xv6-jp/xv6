@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "x86.h"
 
@@ -103,3 +106,6 @@ strlen(const char *s)
   return n;
 }
 
+/*:md
+```
+md:*/

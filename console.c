@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Console input and output.
 // Input is from the keyboard or serial port.
 // Output is written to the screen and serial port.
@@ -291,3 +294,6 @@ consoleinit(void)
   ioapicenable(IRQ_KBD, 0);
 }
 
+/*:md
+```
+md:*/

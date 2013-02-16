@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Buffer cache.
 //
 // The buffer cache is a linked list of buf structures holding
@@ -137,3 +140,6 @@ brelse(struct buf *b)
   release(&bcache.lock);
 }
 
+/*:md
+```
+md:*/

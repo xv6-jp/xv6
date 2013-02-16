@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Intel 8250 serial port (UART).
 
 #include "types.h"
@@ -75,3 +78,6 @@ uartintr(void)
 {
   consoleintr(uartgetc);
 }
+/*:md
+```
+md:*/

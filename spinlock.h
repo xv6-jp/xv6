@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Mutual exclusion lock.
 struct spinlock {
   uint locked;       // Is the lock held?
@@ -9,3 +12,6 @@ struct spinlock {
                      // that locked the lock.
 };
 
+/*:md
+```
+md:*/

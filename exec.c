@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "param.h"
 #include "memlayout.h"
@@ -99,3 +102,6 @@ exec(char *path, char **argv)
     iunlockput(ip);
   return -1;
 }
+/*:md
+```
+md:*/

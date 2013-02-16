@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 //
 // File descriptors
 //
@@ -154,3 +157,6 @@ filewrite(struct file *f, char *addr, int n)
   panic("filewrite");
 }
 
+/*:md
+```
+md:*/

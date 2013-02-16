@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Mutual exclusion spin locks.
 
 #include "types.h"
@@ -115,3 +118,6 @@ popcli(void)
     sti();
 }
 
+/*:md
+```
+md:*/

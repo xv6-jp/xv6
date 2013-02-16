@@ -1,8 +1,29 @@
+/*:md
+# cat.c
+ファイルをコンソールに表示させたり、連結させたりする場合のコマンド
+
+## ヘッダ部分
+```c:cat.c 
+md:*/
 #include "types.h"
 #include "stat.h"
 #include "user.h"
 
 char buf[512];
+/*:md
+```
+## cat機能本体
+* 引数
+    * fd:int 読み込み先のファイルディスクリプタ
+
+readシステムコールを用いて
+
+fdからbufサイズ分のデータを読み込み
+
+fd 1に対して上記のデータを書き込む
+
+```c:cat.c
+md:*/
 
 void
 cat(int fd)
@@ -16,16 +37,45 @@ cat(int fd)
     exit();
   }
 }
+/*:md
+```
+### メイン関数
+```c:cat.c
+md:*/
 
 int
 main(int argc, char *argv[])
 {
   int fd, i;
+/*:md
+```
+引数が与えられなかった場合
+
+fd 0に対して上記のcat関数を実行する
+
+exitシステムコールを発行
+
+```c:cat.c
+md:*/
 
   if(argc <= 1){
     cat(0);
     exit();
   }
+/*:md
+```
+引数が与えられた場合
+
+すべての引数に対して openシステムコールを発行し、fdを取得
+
+その各fdに対して 上記cat関数を実行
+
+その後fdをcloseする
+
+すべてのファイル分作業が完了したらexitシステムコールを発行
+
+```c:cat.c
+md:*/
 
   for(i = 1; i < argc; i++){
     if((fd = open(argv[i], 0)) < 0){
@@ -37,3 +87,6 @@ main(int argc, char *argv[])
   }
   exit();
 }
+/*:md
+```
+md:*/

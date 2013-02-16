@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // x86 trap and interrupt constants.
 
 // Processor-defined:
@@ -36,3 +39,6 @@
 #define IRQ_ERROR       19
 #define IRQ_SPURIOUS    31
 
+/*:md
+```
+md:*/

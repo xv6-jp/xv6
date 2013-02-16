@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "defs.h"
 #include "param.h"
@@ -109,3 +112,6 @@ trap(struct trapframe *tf)
   if(proc && proc->killed && (tf->cs&3) == DPL_USER)
     exit();
 }
+/*:md
+```
+md:*/

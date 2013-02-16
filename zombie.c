@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Create a zombie process that 
 // must be reparented at exit.
 
@@ -12,3 +15,6 @@ main(void)
     sleep(5);  // Let child exit before parent.
   exit();
 }
+/*:md
+```
+md:*/

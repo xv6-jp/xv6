@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "stat.h"
 #include "user.h"
@@ -13,3 +16,6 @@ main(int argc, char *argv[])
     printf(2, "link %s %s: failed\n", argv[1], argv[2]);
   exit();
 }
+/*:md
+```
+md:*/

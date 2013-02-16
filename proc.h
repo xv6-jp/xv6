@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Segments in proc->gdt.
 #define NSEGS     7
 
@@ -73,3 +76,6 @@ struct proc {
 //   original data and bss
 //   fixed-size stack
 //   expandable heap
+/*:md
+```
+md:*/

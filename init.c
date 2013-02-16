@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // init: The initial user-level program
 
 #include "types.h"
@@ -35,3 +38,6 @@ main(void)
       printf(1, "zombie!\n");
   }
 }
+/*:md
+```
+md:*/

@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Fake IDE disk; stores blocks in memory.
 // Useful for running kernel without scratch disk.
 
@@ -56,3 +59,6 @@ iderw(struct buf *b)
     memmove(b->data, p, 512);
   b->flags |= B_VALID;
 }
+/*:md
+```
+md:*/

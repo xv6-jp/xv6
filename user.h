@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 struct stat;
 
 // system calls
@@ -36,3 +39,6 @@ void* memset(void*, int, uint);
 void* malloc(uint);
 void free(void*);
 int atoi(const char*);
+/*:md
+```
+md:*/
