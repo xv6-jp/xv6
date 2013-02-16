@@ -118,3 +118,6 @@ piperead(struct pipe *p, char *addr, int n)
   release(&p->lock);
   return i;
 }
+
+```
+

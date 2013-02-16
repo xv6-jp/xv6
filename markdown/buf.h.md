@@ -1,3 +1,6 @@
+
+```c
+
 struct buf {
   int flags;
   uint dev;

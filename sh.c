@@ -492,3 +492,6 @@ nulterminate(struct cmd *cmd)
   }
   return cmd;
 }
+/*:md
+```
+md:*/

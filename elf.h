@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Format of an ELF executable file
 
 #define ELF_MAGIC 0x464C457FU  // "\x7FELF" in little endian

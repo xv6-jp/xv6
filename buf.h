@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 struct buf {
   int flags;
   uint dev;

@@ -1,3 +1,6 @@
+
+```c
+
 struct stat;
 
 // system calls

@@ -154,3 +154,6 @@ mpinit(void)
     outb(0x23, inb(0x23) | 1);  // Mask external interrupts.
   }
 }
+/*:md
+```
+md:*/

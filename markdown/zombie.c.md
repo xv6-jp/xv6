@@ -12,3 +12,6 @@ main(void)
     sleep(5);  // Let child exit before parent.
   exit();
 }
+
+```
+

@@ -1,3 +1,6 @@
+
+```c
+
 // See MultiProcessor Specification Version 1.[14]
 
 struct mp {             // floating pointer

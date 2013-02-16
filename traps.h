@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // x86 trap and interrupt constants.
 
 // Processor-defined:

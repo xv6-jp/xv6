@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 //
 // assembler macros to create x86 segments
 //

@@ -83,3 +83,6 @@ main(int argc, char *argv[])
     ls(argv[i]);
   exit();
 }
+/*:md
+```
+md:*/
