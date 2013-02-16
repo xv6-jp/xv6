@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "defs.h"
 #include "param.h"
@@ -118,3 +121,6 @@ piperead(struct pipe *p, char *addr, int n)
   release(&p->lock);
   return i;
 }
+/*:md
+```
+md:*/

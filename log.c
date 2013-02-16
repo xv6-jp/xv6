@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "defs.h"
 #include "param.h"
@@ -183,3 +186,6 @@ log_write(struct buf *b)
 //PAGEBREAK!
 // Blank page.
 
+/*:md
+```
+md:*/

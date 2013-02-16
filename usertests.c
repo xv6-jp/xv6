@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "param.h"
 #include "types.h"
 #include "stat.h"
@@ -1653,3 +1656,6 @@ main(int argc, char *argv[])
 
   exit();
 }
+/*:md
+```
+md:*/

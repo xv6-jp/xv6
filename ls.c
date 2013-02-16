@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "stat.h"
 #include "user.h"
@@ -83,3 +86,6 @@ main(int argc, char *argv[])
     ls(argv[i]);
   exit();
 }
+/*:md
+```
+md:*/

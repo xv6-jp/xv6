@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "stat.h"
 #include "user.h"
@@ -88,3 +91,6 @@ malloc(uint nbytes)
         return 0;
   }
 }
+/*:md
+```
+md:*/

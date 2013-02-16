@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 OBJS = \
 	bio.o\
 	console.o\
@@ -177,10 +178,11 @@ fs.img: mkfs README $(UPROGS)
 -include *.d
 
 clean: 
-	rm -f *.tex *.dvi *.idx *.aux *.log *.ind *.ilg \
+	rm -rf *.tex *.dvi *.idx *.aux *.log *.ind *.ilg \
 	*.o *.d *.asm *.sym vectors.S bootblock entryother \
 	initcode initcode.out kernel xv6.img fs.img kernelmemfs mkfs \
 	.gdbinit \
+	markdown \
 	$(UPROGS)
 
 # make a printout
@@ -271,5 +273,11 @@ tar:
 	mkdir -p /tmp/xv6
 	cp dist/* dist/.gdbinit.tmpl /tmp/xv6
 	(cd /tmp; tar cf - xv6) | gzip >xv6-rev5.tar.gz
+
+MDTARGETS = $(shell find . -type f -name '*.h' -o -name '*.c' | grep -v .git)
+markdown: $(MDTARGETS)
+	rm -rf markdown 
+	mkdir  markdown 
+	for i in $(MDTARGETS) ; do sed 's/^\/\*:md//g' $$i | sed 's/^md:\*\///g'> markdown/$$i.md ;done
 
 .PHONY: dist-test dist

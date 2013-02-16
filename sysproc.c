@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "x86.h"
 #include "defs.h"
@@ -88,3 +91,6 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+/*:md
+```
+md:*/

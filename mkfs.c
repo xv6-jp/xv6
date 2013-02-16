@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -296,3 +299,6 @@ iappend(uint inum, void *xp, int n)
   din.size = xint(off);
   winode(inum, &din);
 }
+/*:md
+```
+md:*/

@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Intel 8259A programmable interrupt controllers.
 
 #include "types.h"
@@ -82,3 +85,6 @@ picinit(void)
   if(irqmask != 0xFFFF)
     picsetmask(irqmask);
 }
+/*:md
+```
+md:*/

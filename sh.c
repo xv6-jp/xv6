@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Shell.
 
 #include "types.h"
@@ -492,3 +495,6 @@ nulterminate(struct cmd *cmd)
   }
   return cmd;
 }
+/*:md
+```
+md:*/

@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "param.h"
 #include "types.h"
 #include "defs.h"
@@ -375,3 +378,6 @@ copyout(pde_t *pgdir, uint va, void *p, uint len)
   }
   return 0;
 }
+/*:md
+```
+md:*/

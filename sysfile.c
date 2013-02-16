@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 //
 // File-system system calls.
 // Mostly argument checking, since we don't trust
@@ -423,3 +426,6 @@ sys_pipe(void)
   fd[1] = fd1;
   return 0;
 }
+/*:md
+```
+md:*/

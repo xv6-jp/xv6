@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Simple PIO-based (non-DMA) IDE driver code.
 
 #include "types.h"
@@ -153,3 +156,6 @@ iderw(struct buf *b)
 
   release(&idelock);
 }
+/*:md
+```
+md:*/

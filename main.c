@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "defs.h"
 #include "param.h"
@@ -114,3 +117,6 @@ pde_t entrypgdir[NPDENTRIES] = {
 //PAGEBREAK!
 // Blank page.
 
+/*:md
+```
+md:*/

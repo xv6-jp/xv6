@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "stat.h"
 #include "user.h"
@@ -11,3 +14,6 @@ main(int argc, char *argv[])
     printf(1, "%s%s", argv[i], i+1 < argc ? " " : "\n");
   exit();
 }
+/*:md
+```
+md:*/

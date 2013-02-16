@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "defs.h"
 #include "param.h"
@@ -137,3 +140,6 @@ syscall(void)
     proc->tf->eax = -1;
   }
 }
+/*:md
+```
+md:*/

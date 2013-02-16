@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "stat.h"
 #include "user.h"
@@ -83,3 +86,6 @@ printf(int fd, char *fmt, ...)
     }
   }
 }
+/*:md
+```
+md:*/

@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 #include "types.h"
 #include "x86.h"
 #include "defs.h"
@@ -48,3 +51,6 @@ kbdintr(void)
 {
   consoleintr(kbdgetc);
 }
+/*:md
+```
+md:*/

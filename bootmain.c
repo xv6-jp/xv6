@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // Boot loader.
 // 
 // Part of the boot sector, along with bootasm.S, which calls bootmain().
@@ -94,3 +97,6 @@ readseg(uchar* pa, uint count, uint offset)
   for(; pa < epa; pa += SECTSIZE, offset++)
     readsect(pa, offset);
 }
+/*:md
+```
+md:*/

@@ -1,3 +1,6 @@
+/*:md
+```c
+md:*/
 // The I/O APIC manages hardware interrupts for an SMP system.
 // http://www.intel.com/design/chipsets/datashts/29056601.pdf
 // See also picirq.c.
@@ -79,3 +82,6 @@ ioapicenable(int irq, int cpunum)
   ioapicwrite(REG_TABLE+2*irq, T_IRQ0 + irq);
   ioapicwrite(REG_TABLE+2*irq+1, cpunum << 24);
 }
+/*:md
+```
+md:*/
