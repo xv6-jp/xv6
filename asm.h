@@ -22,3 +22,6 @@ md:*/
 #define STA_W     0x2       // Writeable (non-executable segments)
 #define STA_R     0x2       // Readable (executable segments)
 #define STA_A     0x1       // Accessed
+/*:md
+```
+md:*/

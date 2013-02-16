@@ -12,3 +12,6 @@ struct spinlock {
                      // that locked the lock.
 };
 
+/*:md
+```
+md:*/
