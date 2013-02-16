@@ -274,7 +274,7 @@ tar:
 	cp dist/* dist/.gdbinit.tmpl /tmp/xv6
 	(cd /tmp; tar cf - xv6) | gzip >xv6-rev5.tar.gz
 
-MDTARGETS = $(shell find . -type f -name '*.h' -o -name '*.c')
+MDTARGETS = $(shell find . -type f -name '*.h' -o -name '*.c' | grep -v .git)
 markdown: $(MDTARGETS)
 	rm -rf markdown 
 	mkdir  markdown 
